@@ -1,0 +1,116 @@
+body {
+    font-family: 'Hachi Maru Pop', 'Roboto', sans-serif;
+    background: url('https://images.wallpaperscraft.ru/image/single/devushka_kapiushon_ushki_1013418_1280x960.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s;
+}
+
+header:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.section {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input {
+    margin-top: 10px;
+}
+
+.animated-button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.animated-button:hover {
+    background-color: #e6b800;
+    transform: translateY(-2px);
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
